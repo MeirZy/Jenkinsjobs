@@ -1,0 +1,8 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building remotely on [8mha:AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6SaWZOSnFRWUAbGUHVscAAAA=[0mbuildsrv in workspace /home/meirz/jenkins/workspace/cpwarfile
+[cpwarfile] $ /bin/sh -xe /tmp/hudson6236905883437997259.sh
++ chmod +x /home/meirz/copyscript.py /home/meirz/jenkins/workspace/CourseProject/target/courseProject.war /var/lib/tomcat/webapps
+chmod: changing permissions of ‘/home/meirz/copyscript.py’: Operation not permitted
+chmod: cannot access ‘/var/lib/tomcat/webapps’: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

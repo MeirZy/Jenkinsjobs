@@ -1,0 +1,7 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building remotely on [8mha:AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/fDUJD+gUwFTXTsTxgAAAA==[0mWebNode in workspace /home/meirz/workspace/cpwarfile
+[cpwarfile] $ /bin/sh -xe /tmp/hudson8954813742546181544.sh
++ sudo -n scp /home/meirz/jenkins/workspace/CourseProject/target/courseProject.war meirz@websrv.dybetaznhvqetlla1bxv4v3w0c.bx.internal.cloudapp.net:/var/lib/tomcat/webapps
+sudo: a password is required
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

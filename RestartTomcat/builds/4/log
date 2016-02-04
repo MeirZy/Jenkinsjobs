@@ -1,0 +1,8 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building on master in workspace /var/lib/jenkins/jobs/RestartTomcat/workspace
+[workspace] $ /bin/sh -xe /tmp/hudson5019331005166398485.sh
++ sudo service tomcat7 stop
+Redirecting to /bin/systemctl stop  tomcat7.service
+Failed to issue method call: Unit tomcat7.service not loaded.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

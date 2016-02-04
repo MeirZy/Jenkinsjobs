@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>srcfile</name>
+          <description>Source war file to be copied into web server machine from build node</description>
+          <defaultValue>/home/meirz/jenkins/workspace/CourseProject/target/courseProject.war</defaultValue>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>dstfolder</name>
+          <description>Destination folder on web server machine</description>
+          <defaultValue>/var/lib/tomcat/webapps</defaultValue>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <assignedNode>WebNode</assignedNode>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>python /home/meirz/copyscript.py ${srcfile} ${dstfolder}
+
+
+#scp meirz@buildsrv.dybetaznhvqetlla1bxv4v3w0c.bx.internal.cloudapp.net:/home/meirz/jenkins/workspace/CourseProject/target/courseProject.war /var/lib/tomcat/webapps
+</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

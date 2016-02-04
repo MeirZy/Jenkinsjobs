@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>srcfile</name>
+          <description>Source war file to be copied into web server machine from build node</description>
+          <value>/home/meirz/jenkins/workspace/CourseProject/target/courseProject.war</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>dstfolder</name>
+          <description>Destination folder on web server machine</description>
+          <value>/var/lib/tomcat/webapps</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>81</queueId>
+  <timestamp>1454600277057</timestamp>
+  <startTime>1454600277059</startTime>
+  <result>FAILURE</result>
+  <duration>224</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>WebNode</builtOn>
+  <workspace>/home/meirz/workspace/cpwarfile</workspace>
+  <hudsonVersion>1.642.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

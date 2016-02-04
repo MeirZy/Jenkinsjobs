@@ -1,0 +1,8 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building on master in workspace /var/lib/jenkins/jobs/RestartTomcat/workspace
+[workspace] $ /bin/sh -xe /tmp/hudson2676562820405675463.sh
++ ssh -t websrv.dybetaznhvqetlla1bxv4v3w0c.bx.internal.cloudapp.net:8080 sudo /etc/init.d/tomcat6 stop
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+ssh: Could not resolve hostname websrv.dybetaznhvqetlla1bxv4v3w0c.bx.internal.cloudapp.net:8080: Name or service not known
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,10 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building remotely on [8mha:AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/fDUJD+gUwFTXTsTxgAAAA==[0mWebNode in workspace /home/meirz/workspace/cpwarfile
+[cpwarfile] $ /bin/sh -xe /tmp/hudson8003719577769061260.sh
++ python /home/meirz/copyscript.py /home/meirz/jenkins/workspace/CourseProject/target/courseProject.war /var/lib/tomcat/webapps
+  File "/home/meirz/copyscript.py", line 11
+    os.system("scp " + "meirz@buildsrv.dybetaznhvqetlla1bxv4v3w0c.bx.internal.cloudapp.net:" + source_file  dest_dir)
+                                                                                                                   ^
+SyntaxError: invalid syntax
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
